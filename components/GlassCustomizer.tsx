@@ -35,6 +35,8 @@ function SceneCapture({ onCapture }) {
   return null
 }
 
+
+
 export default function GlassCustomizer() {
   const [activeColor, setActiveColor] = useState("#FFFFFF")
   const [frameWidth, setFrameWidth] = useState(1)
